@@ -23,6 +23,7 @@ vendingMachine.addBeverage(Beverage("coca cola", 3200))
 vendingMachine.addBeverage(Beverage("suv", 1000))
 vendingMachine.addBeverage(Beverage("pepsi", 2500))
 
+
 def askForDrinkPrice():
   beverageName = input("Qaysi ichimlikning narxini xohlaysiz? ")
   price = vendingMachine.getPrice(beverageName)
