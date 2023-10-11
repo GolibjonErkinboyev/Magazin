@@ -19,9 +19,9 @@ class VendingMachine:
     return self.beverages[beverageName].getPrice()
 
 vendingMachine = VendingMachine()
-vendingMachine.addBeverage(Beverage("Coca Cola", 3200))
-vendingMachine.addBeverage(Beverage("Water", 1000))
-vendingMachine.addBeverage(Beverage("Pepsi", 2500))
+vendingMachine.addBeverage(Beverage("coca cola", 3200))
+vendingMachine.addBeverage(Beverage("suv", 1000))
+vendingMachine.addBeverage(Beverage("pepsi", 2500))
 
 def askForDrinkPrice():
   beverageName = input("Qaysi ichimlikning narxini xohlaysiz? ")
